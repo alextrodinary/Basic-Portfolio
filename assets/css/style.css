@@ -14,19 +14,23 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 40px;
   color: #333;
-  background: #4aaaa5;
-  margin:0;
-  margin-left:100px;
 
-  width:175px;
+  margin:0;
+  left:0;
+  width:100%;
+  border-bottom:1px solid #b5b5b5;
+
  
 }
 
 section {
-	padding: 20px;
-	margin-bottom: 20px;
+	width:650px;
+	position:absolute;
+	margin-left:200px;
+	margin-top:100px;
+
 }
 
 #about {
@@ -51,15 +55,12 @@ section {
 }
 
 #full {
-	clear: both;
-	overflow: auto;
-	background-color: #eee;
-	width: 960px;
+
 }
 
 
 
-#division {
+#aboutme {
 	background-color: #6ea3da;
 	padding: 20px;
 	margin-top: 20px;
@@ -71,7 +72,7 @@ aside {
 	height: 200px;
 	border: 1px solid #eee;
 	padding: 20px;
-	float: left;
+	float: right;
 	margin-left: 30px;
 }
 
@@ -80,6 +81,17 @@ footer {
 	background-color: #ccc;
 	padding: 20px;
 	border-top:2px solid #4aaaa5;
-	bottom:0;
+	bottom:-326px;
+
 	width:100%;
+	position: absolute;
 }
+
+ #myname  {
+ 	position:absolute;
+ 	top:0;
+ 	background: #4aaaa5;
+ 	padding:20px;
+ 	margin-left:200px;
+ 	top:10px;
+ }

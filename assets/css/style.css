@@ -11,6 +11,8 @@ body {
 	font-size: 24px;
 	font-family: Georgia, Times, Times New Roman, serif;
 	color: #777777;
+	background: #ececec;
+
 }
 
 header {
@@ -20,7 +22,7 @@ header {
   left:0;
   width:100%;
   border-bottom:1px solid #b5b5b5;
-
+  background-color: white;
  
 }
 
@@ -56,7 +58,7 @@ section {
 }
 
 #aboutme {
-	background-color: #6ea3da;
+	background-color: white;
 	padding: 20px;
 	margin-top: 20px;
 }
@@ -100,3 +102,18 @@ footer {
  #imgid {
  	float:left;
  }
+
+ #github {
+ 	float:left;
+ }
+
+ #link {
+ 	float:right;
+ 	position: absolute;
+ }
+
+ #stacked {
+	float:right;
+ }
+ 	
+
